@@ -26,6 +26,7 @@ module.exports = {
   output: {
     path: path.resolve('./dist'),
     filename: 'ReactTags.min.js',
+    publicPath: '/dist/',
     libraryTarget: 'umd',
     library: 'ReactTags'
   }
